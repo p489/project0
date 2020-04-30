@@ -1,0 +1,106 @@
+#design {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bolder; 
+    border:5px solid burlywood;
+    width:100%;
+    border-collapse: collapse;              /*it collapses the border of the inside elements and outsides into one*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+
+#design td, #design th   
+{ border:2px solid black; 
+    padding:10px;
+}  
+
+
+
+#design th
+{padding:15px;background-color: crimson;
+  color: aqua;
+}
+
+
+#design tr:hover{background-color: gray;} /*when hovering in the data of the table
+it produces background grey color*/
+
+#capital p::first-letter{text-shadow:1px 1px rgb(0, 130, 59);  /*to design the first letter of the paragraph*/
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic;
+  color:blue;
+}
+
+
+h1{
+text-decoration: underline;                        /*underline the content*/
+}
+
+h2{
+  text-align: center;
+}
+
+
+#subject {
+background-image:url("https://previews.123rf.com/images/madamlead/madamlead1702/madamlead170200009/71368807-light-on-chemical-structure-with-flask-and-vial-background-in-science-laboratory.jpg") 
+}
+
+
+#back{
+    background-image: url("https://images.unsplash.com/photo-1563625236407-04ec2b4539d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=500&q=60");
+}
+
+
+a:link {                                        /*original color of link*/
+    color:magenta;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {                                     /*once link is visites already*/
+    color:firebrick;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {                                        /* when link is hovered over*/
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:active {                                       /*when link is clicked*/
+    color:cyan;
+    background-color: transparent;
+    text-decoration: underline;}
+
+h1 {
+      font-style: oblique; 
+      background-color: rgb(187, 207, 226);
+       color:darkmagenta
+  }  
+
+
+  h2 {font-style: italic; 
+    font-weight: 900; 
+    color:saddlebrown;}
+
+
+  @media (max-width:500px){                 /*meadia query it means if width is less than 500px i.e. as you make window smaller
+                                            all the background image changes*/
+    body{
+      background-image:url("https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-polygonal-chemical-molecule-poster-background-image_125106.jpg");
+    }
+
+  #subject {background-image: none;}                             /*to disappear the previous background image*/
+
+  #back{background-image:none;}
+
+  h1 {background-color:wheat;
+
+  color:orange}
+  }
+  
+   

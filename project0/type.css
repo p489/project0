@@ -1,0 +1,61 @@
+h1 {
+width = 100%;
+padiing= 10px;
+display:block;
+background-color:darkmagenta;
+color:lightcyan;
+text-align:center;
+
+}
+
+h2 { color:forestgreen;
+    margin:15px solid black;
+    padding: 5px;
+    text-shadow: 2px 2px 5px greenyellow;
+    font-weight: bold;
+
+}
+#shadow {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px orangered;
+    text-align: left;
+}
+
+
+img {
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: auto;
+    margin-left: 10px;
+}
+
+body {
+    
+    margin:5px;
+    padding:5px;
+
+}
+
+
+
+span {     /*to make the content of ol to look normal i.e. have font normally*/
+    font-weight:normal;
+}
+
+
+
+.style_image {    /*to make the image right just beside the text*/
+            
+    float:right ; 
+    margin-right: 10px; 
+    margin-bottom: 5px;
+    margin-left: 10px; 
+    border: solid black 1px;
+    padding: 2px ;
+
+}
+

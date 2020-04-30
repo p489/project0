@@ -1,0 +1,54 @@
+h1{ background-color: khaki;
+    color:darkorchid
+
+
+}
+img {
+    display: inline-block;
+    vertical-align: auto;
+    margin-left: 10px;}
+
+    
+.style_image {
+            
+        float:right ; 
+        margin-right: 10px; 
+        margin-bottom: 5px; 
+        border: solid rgb(125, 117, 236) 2px;
+        padding: 2px ;
+
+    }    
+
+ a:link {
+        color:rgb(151, 212, 171);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+ a:visited {
+        color:darkturquoise;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+ a:hover {
+        color:deeppink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+a:active {
+        color: rgb(89, 0, 255);
+        background-color: transparent;
+        text-decoration: underline;}
+
+body {
+  
+  padding: 5px;
+  background-color: #f3fafd;
+  
+}
+
+h2{
+    color:brown
+}
